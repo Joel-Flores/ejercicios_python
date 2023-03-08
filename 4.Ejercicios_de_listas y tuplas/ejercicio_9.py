@@ -9,6 +9,7 @@ def listado_de_palabras(palabra):
     for letra in palabra:
         letras.append(letra)
     return (letras)
+
 def run():
     contador_a = 0
     contador_e = 0

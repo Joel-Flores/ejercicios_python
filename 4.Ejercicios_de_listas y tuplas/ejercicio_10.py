@@ -8,11 +8,13 @@ def buscar_mayor(precios,mayor):
         if precio > mayor:
             mayor = precio
     return (mayor)
+
 def buscar_menor(precios,menor):
     for precio in precios:
         if precio < menor:
             menor = precio
     return(menor)
+
 def run():
     precios = [50,75,46,22,80,65,8]
     mayor = buscar_mayor(precios,0)
